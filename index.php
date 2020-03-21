@@ -18,11 +18,15 @@ if ($conn->connect_error) {
 
 //erroneous code
 <?
-$foo = 1;
+class Clazz {
+  $name=NULL;  // instance variable
+
+  public static function foo(){
+    if ($this->name != NULL) {
+      // ...
+    }
+  }
+}
 ?>
-<?php
-$name = "George";
-?>
-<p> Hello <?php echo $name ?>!</p>
 
 <h4>End of Portal</h4>
