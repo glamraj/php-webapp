@@ -16,7 +16,6 @@ if ($conn->connect_error) {
 
 ?>
 
-erroneous code example
 <?php
 if ($expr1) {// Noncompliant
   //...
