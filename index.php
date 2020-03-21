@@ -17,13 +17,15 @@ if ($conn->connect_error) {
 ?>
 
 erroneous code example
-<?
+<?php
 if ($expr1) {
   //...
 } else if ($expr2) {
   //...
 } else {
 //    ...
+}
+function compute($a, $a, $c) { // Noncompliant
 }
 ?>
 
