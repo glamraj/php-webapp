@@ -27,6 +27,8 @@ if ($expr1) {// Noncompliant
 }
 function compute($a, $a, $c) { // Noncompliant
 }
+function compute($a, $a, $c) { // Noncompliant
+}
 if (is_bad_ip($requester)) {
   sleep(1);  // Noncompliant
 }
