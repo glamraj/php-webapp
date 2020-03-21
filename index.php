@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 
 erroneous code example
 <?php
-if ($expr1) {
+if ($expr1) {// Noncompliant
   //...
 } else if ($expr2) {
   //...
@@ -26,6 +26,9 @@ if ($expr1) {
 //    ...
 }
 function compute($a, $a, $c) { // Noncompliant
+}
+if (is_bad_ip($requester)) {
+  sleep(1);  // Noncompliant
 }
 ?>
 
