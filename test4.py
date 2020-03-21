@@ -3,7 +3,7 @@ from selenium import webdriver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox') # required when running as root user. otherwise you would get no sandbox errors. 
-driver = webdriver.Chrome('/opt/lab/php-webapp/chromedriver', chrome_options=chrome_options,  service_args=['--verbose', '--log-path=/opt/chromedriver.log'])
+driver = webdriver.Chrome('./chromedriver', chrome_options=chrome_options,  service_args=['--verbose', '--log-path=./chromedriver.log'])
 # Option 2 - with pyvirtualdisplay
 #from pyvirtualdisplay import Display 
 #display = Display(visible=0, size=(1024, 768)) 

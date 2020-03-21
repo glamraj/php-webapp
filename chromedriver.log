@@ -1,0 +1,2089 @@
+[1584816004.885][INFO]: Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 49602
+[1584816004.885][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1584816005.814][INFO]: [2a5f51e034c18c63aa486b4686918909] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--no-sandbox" ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--headless", "--no-sandbox" ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1584816005.817][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1584816005.817][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1584816005.817][INFO]: Launching chrome: /opt/google/chrome/chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --load-extension=/tmp/.com.google.Chrome.7jWgIl/internal --log-level=0 --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.9rA9sd data:,
+
+DevTools listening on ws://127.0.0.1:38083/devtools/browser/b2f0af3e-a2d5-4754-b2fc-c6cf4ccd4055
+[1584816006.442][DEBUG]: DevTools HTTP Request: http://localhost:38083/json/version
+[1584816006.445][DEBUG]: DevTools HTTP Response: {
+   "Browser": "HeadlessChrome/80.0.3987.149",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.149 Safari/537.36",
+   "V8-Version": "8.0.426.27",
+   "WebKit-Version": "537.36 (@5f4eb224680e5d7dca88504586e9fd951840cac6)",
+   "webSocketDebuggerUrl": "ws://localhost:38083/devtools/browser/b2f0af3e-a2d5-4754-b2fc-c6cf4ccd4055"
+}
+
+[1584816006.445][DEBUG]: DevTools HTTP Request: http://localhost:38083/json/list
+[1584816006.446][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:38083/devtools/page/300B1AECC75989AF4EB7CBFA5368D760",
+   "id": "300B1AECC75989AF4EB7CBFA5368D760",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:38083/devtools/page/300B1AECC75989AF4EB7CBFA5368D760"
+} ]
+
+[1584816006.446][DEBUG]: DevTools HTTP Request: http://localhost:38083/json/list
+[1584816006.447][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:38083/devtools/page/300B1AECC75989AF4EB7CBFA5368D760",
+   "id": "300B1AECC75989AF4EB7CBFA5368D760",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:38083/devtools/page/300B1AECC75989AF4EB7CBFA5368D760"
+} ]
+
+[1584816006.449][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1584816006.450][DEBUG]: DevTools WebSocket Command: Log.enable (id=1) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.451][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=2) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.451][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=3) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1584816006.451][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.451][DEBUG]: DevTools WebSocket Command: Page.setDownloadBehavior (id=5) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "behavior": "allow",
+   "downloadPath": "."
+}
+[1584816006.451][DEBUG]: DevTools WebSocket Command: Page.enable (id=6) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.452][DEBUG]: DevTools WebSocket Response: Page.setDownloadBehavior (id=5) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.524][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=3) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[0321/184006.637730:ERROR:command_buffer_proxy_impl.cc(125)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[0321/184006.637577:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
+[1584816006.639][DEBUG]: DevTools WebSocket Response: Log.enable (id=1) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.639][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=2) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "300B1AECC75989AF4EB7CBFA5368D760",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1584816006.639][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.639][DEBUG]: DevTools WebSocket Response: Page.enable (id=6) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.639][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=7) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.644][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "300B1AECC75989AF4EB7CBFA5368D760",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1584816006.644][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=7) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.644][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[0321/184006.645147:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
+[1584816006.648][DEBUG]: DevTools WebSocket Response: Page.enable (id=8) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.648][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.653][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.653][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1584816006.657][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1584816006.657][INFO]: [2a5f51e034c18c63aa486b4686918909] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "80.0.3987.149",
+      "chrome": {
+         "chromedriverVersion": "80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185})",
+         "userDataDir": "/tmp/.com.google.Chrome.9rA9sd"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:38083"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "2a5f51e034c18c63aa486b4686918909"
+}
+[1584816006.692][INFO]: [2a5f51e034c18c63aa486b4686918909] COMMAND Navigate {
+   "url": "https://pages.jawwy.sa/premium/en/"
+}
+[1584816006.692][INFO]: Waiting for pending navigations...
+[1584816006.692][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816006.693][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816006.693][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=12) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816006.694][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=12) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "300B1AECC75989AF4EB7CBFA5368D760",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1584816006.694][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=13) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "awaitPromise": true,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1584816006.694][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=13) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1584816006.695][INFO]: Done waiting for pending navigations. Status: ok
+[1584816006.695][DEBUG]: DevTools WebSocket Command: Page.navigate (id=14) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "url": "https://pages.jawwy.sa/premium/en/"
+}
+[1584816009.735][DEBUG]: DevTools WebSocket Response: Page.navigate (id=14) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "300B1AECC75989AF4EB7CBFA5368D760",
+   "loaderId": "38038D7564DCBC7E1F6ADD48917EE2E9"
+}
+[1584816009.735][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "document.URL"
+}
+[1584816009.746][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816009.746][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "300B1AECC75989AF4EB7CBFA5368D760"
+}
+[1584816009.746][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816009.746][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "300B1AECC75989AF4EB7CBFA5368D760",
+      "loaderId": "38038D7564DCBC7E1F6ADD48917EE2E9",
+      "mimeType": "text/html",
+      "securityOrigin": "https://pages.jawwy.sa",
+      "url": "https://pages.jawwy.sa/premium/en/"
+   }
+}
+[1584816009.746][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816009.746][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=16) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816009.747][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "300B1AECC75989AF4EB7CBFA5368D760",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://pages.jawwy.sa"
+   }
+}
+[1584816009.769][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "type": "string",
+      "value": "https://pages.jawwy.sa/premium/en/"
+   }
+}
+[1584816009.769][INFO]: Waiting for pending navigations...
+[1584816009.769][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=16) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://pages.jawwy.sa/premium/en/",
+      "childNodeCount": 0,
+      "children": [  ],
+      "documentURL": "https://pages.jawwy.sa/premium/en/",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1584816009.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 300B1AECC75989AF4EB7CBFA5368D760 {
+   "node": {
+      "backendNodeId": 2,
+      "localName": "",
+      "nodeId": 2,
+      "nodeName": "html",
+      "nodeType": 10,
+      "nodeValue": "",
+      "publicId": "",
+      "systemId": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 0
+}
+[1584816009.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 300B1AECC75989AF4EB7CBFA5368D760 {
+   "node": {
+      "attributes": [ "lang", "en" ],
+      "backendNodeId": 3,
+      "childNodeCount": 0,
+      "frameId": "300B1AECC75989AF4EB7CBFA5368D760",
+      "localName": "html",
+      "nodeId": 3,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 2
+}
+[1584816009.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 1,
+   "nodeId": 3
+}
+[1584816009.769][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 2,
+   "nodeId": 3
+}
+[1584816009.769][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816009.774][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816009.774][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=18) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816009.775][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=18) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://pages.jawwy.sa/premium/en/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 5,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 4,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "lang", "en" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 18,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "300B1AECC75989AF4EB7CBFA5368D760",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 4
+      } ],
+      "documentURL": "https://pages.jawwy.sa/premium/en/",
+      "localName": "",
+      "nodeId": 4,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1584816009.775][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "awaitPromise": true,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1584816009.776][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "type": "string",
+      "value": "loading"
+   }
+}
+[1584816009.876][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816009.877][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816009.878][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816009.978][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816009.978][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816009.979][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.044][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 19,
+   "nodeId": 7
+}
+[1584816010.044][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 2,
+   "nodeId": 8
+}
+[1584816010.044][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 3,
+   "nodeId": 8
+}
+[1584816010.044][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 4,
+   "nodeId": 8
+}
+[1584816010.044][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 5,
+   "nodeId": 8
+}
+[1584816010.044][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 6,
+   "nodeId": 8
+}
+[1584816010.044][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 7,
+   "nodeId": 8
+}
+[1584816010.044][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 8,
+   "nodeId": 8
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 300B1AECC75989AF4EB7CBFA5368D760 {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 6,
+      "childNodeCount": 0,
+      "localName": "fieldset",
+      "nodeId": 9,
+      "nodeName": "FIELDSET",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 6,
+   "previousNodeId": 8
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 300B1AECC75989AF4EB7CBFA5368D760 {
+   "name": "id",
+   "nodeId": 9,
+   "value": "sizzle1584816010047"
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeRemoved 300B1AECC75989AF4EB7CBFA5368D760 {
+   "nodeId": 9,
+   "parentNodeId": 6
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 300B1AECC75989AF4EB7CBFA5368D760 {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 7,
+      "childNodeCount": 0,
+      "localName": "fieldset",
+      "nodeId": 10,
+      "nodeName": "FIELDSET",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 6,
+   "previousNodeId": 8
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 1,
+   "nodeId": 10
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 2,
+   "nodeId": 10
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeRemoved 300B1AECC75989AF4EB7CBFA5368D760 {
+   "nodeId": 10,
+   "parentNodeId": 6
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 300B1AECC75989AF4EB7CBFA5368D760 {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 8,
+      "childNodeCount": 3,
+      "localName": "fieldset",
+      "nodeId": 11,
+      "nodeName": "FIELDSET",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 6,
+   "previousNodeId": 8
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.attributeModified 300B1AECC75989AF4EB7CBFA5368D760 {
+   "name": "disabled",
+   "nodeId": 11,
+   "value": ""
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeRemoved 300B1AECC75989AF4EB7CBFA5368D760 {
+   "nodeId": 11,
+   "parentNodeId": 6
+}
+[1584816010.060][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 9,
+   "nodeId": 8
+}
+[1584816010.139][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.144][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816010.144][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=23) 300B1AECC75989AF4EB7CBFA5368D760 {
+
+}
+[1584816010.144][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 300B1AECC75989AF4EB7CBFA5368D760 {
+   "timestamp": 15767.492983
+}
+[1584816010.144][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.150][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=23) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://pages.jawwy.sa/premium/en/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 13,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 12,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "lang", "en" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 19,
+            "localName": "head",
+            "nodeId": 15,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 14
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 9,
+            "localName": "body",
+            "nodeId": 16,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 14
+         } ],
+         "frameId": "300B1AECC75989AF4EB7CBFA5368D760",
+         "localName": "html",
+         "nodeId": 14,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 12
+      } ],
+      "documentURL": "https://pages.jawwy.sa/premium/en/",
+      "localName": "",
+      "nodeId": 12,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1584816010.150][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.250][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816010.251][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.251][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.353][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816010.353][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=26) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.357][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 20,
+   "nodeId": 15
+}
+[1584816010.365][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=26) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.385][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 21,
+   "nodeId": 15
+}
+[1584816010.385][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 22,
+   "nodeId": 15
+}
+[1584816010.385][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 10,
+   "nodeId": 16
+}
+[1584816010.385][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 23,
+   "nodeId": 15
+}
+[1584816010.385][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 11,
+   "nodeId": 16
+}
+[1584816010.385][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 12,
+   "nodeId": 16
+}
+[1584816010.385][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 24,
+   "nodeId": 15
+}
+[1584816010.385][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.386][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 13,
+   "nodeId": 16
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Event: Page.frameAttached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "08380E584F765121676F98AD741857CF",
+   "parentFrameId": "300B1AECC75989AF4EB7CBFA5368D760",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12103,
+         "functionName": "te",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 6035,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 6563,
+         "functionName": "V",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12346,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12428,
+         "functionName": "ae",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12691,
+         "functionName": "t",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      } ]
+   }
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "08380E584F765121676F98AD741857CF"
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "08380E584F765121676F98AD741857CF",
+      "loaderId": "4F21811CBFB2B4040C54BA44E56E1D55",
+      "mimeType": "text/html",
+      "name": "snap09656402288619332",
+      "parentId": "300B1AECC75989AF4EB7CBFA5368D760",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "08380E584F765121676F98AD741857CF",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://pages.jawwy.sa"
+   }
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "delay": 0,
+   "frameId": "08380E584F765121676F98AD741857CF",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/i?pid=075fd263-66ab-40f4-81fa-15ea118ad495"
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "08380E584F765121676F98AD741857CF",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/i?pid=075fd263-66ab-40f4-81fa-15ea118ad495"
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "08380E584F765121676F98AD741857CF"
+}
+[1584816010.423][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=28) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.431][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=28) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.485][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 25,
+   "nodeId": 15
+}
+[1584816010.485][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 14,
+   "nodeId": 16
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Event: Page.frameAttached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "6B000527CB8A7E3FE107E5926C7652B4",
+   "parentFrameId": "300B1AECC75989AF4EB7CBFA5368D760",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12103,
+         "functionName": "te",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 11393,
+         "functionName": "ee",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 7016,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 7166,
+         "functionName": "V",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12346,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12428,
+         "functionName": "ae",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 3359,
+         "functionName": "B",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 9934,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      } ]
+   }
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "6B000527CB8A7E3FE107E5926C7652B4"
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "6B000527CB8A7E3FE107E5926C7652B4",
+      "loaderId": "C501BE26890B5920AF1292FFDA3D6CF2",
+      "mimeType": "text/html",
+      "name": "snap041601146420245083",
+      "parentId": "300B1AECC75989AF4EB7CBFA5368D760",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "6B000527CB8A7E3FE107E5926C7652B4",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 3,
+      "name": "",
+      "origin": "https://pages.jawwy.sa"
+   }
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "delay": 0,
+   "frameId": "6B000527CB8A7E3FE107E5926C7652B4",
+   "reason": "formSubmissionPost",
+   "url": "https://tr.snapchat.com/p"
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "6B000527CB8A7E3FE107E5926C7652B4",
+   "reason": "formSubmissionPost",
+   "url": "https://tr.snapchat.com/p"
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "6B000527CB8A7E3FE107E5926C7652B4"
+}
+[1584816010.502][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.559][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 2
+}
+[1584816010.560][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "08380E584F765121676F98AD741857CF",
+      "loaderId": "C07CD28A9228312C8F58259F89B28CA4",
+      "mimeType": "text/html",
+      "name": "snap09656402288619332",
+      "parentId": "300B1AECC75989AF4EB7CBFA5368D760",
+      "securityOrigin": "https://tr.snapchat.com",
+      "url": "https://tr.snapchat.com/cm/i?pid=075fd263-66ab-40f4-81fa-15ea118ad495"
+   }
+}
+[1584816010.560][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "08380E584F765121676F98AD741857CF",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 4,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816010.560][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=30) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.568][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=30) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.588][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "08380E584F765121676F98AD741857CF"
+}
+[1584816010.589][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=31) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.597][DEBUG]: DevTools WebSocket Event: Page.frameAttached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "0B305ED1624560E02AE370F55DA7757F",
+   "parentFrameId": "08380E584F765121676F98AD741857CF",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12103,
+         "functionName": "te",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8809,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8833,
+         "functionName": "V",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12346,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12428,
+         "functionName": "ae",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12691,
+         "functionName": "t",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      } ]
+   }
+}
+[1584816010.606][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "0B305ED1624560E02AE370F55DA7757F"
+}
+[1584816010.606][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "0B305ED1624560E02AE370F55DA7757F",
+      "loaderId": "7E97A81F73AB30CA2CFEF8E7536610C8",
+      "mimeType": "text/html",
+      "name": "snap07941052726469782",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1584816010.607][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "0B305ED1624560E02AE370F55DA7757F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 5,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816010.607][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "delay": 0,
+   "frameId": "0B305ED1624560E02AE370F55DA7757F",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=100&cb=1584816010586"
+}
+[1584816010.607][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "0B305ED1624560E02AE370F55DA7757F",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=100&cb=1584816010586"
+}
+[1584816010.607][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "0B305ED1624560E02AE370F55DA7757F"
+}
+[1584816010.607][DEBUG]: DevTools WebSocket Event: Page.frameAttached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809",
+   "parentFrameId": "08380E584F765121676F98AD741857CF",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12103,
+         "functionName": "te",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8809,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8833,
+         "functionName": "V",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12346,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12428,
+         "functionName": "ae",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12691,
+         "functionName": "t",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      } ]
+   }
+}
+[1584816010.617][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809"
+}
+[1584816010.617][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "B7469FD9D6041DF3A7FA03FA1AAA2809",
+      "loaderId": "B7DFCD14C6CD1E2A0F3E3B5084A9EAB6",
+      "mimeType": "text/html",
+      "name": "snap022594734054425536",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1584816010.617][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 6,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816010.617][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "delay": 0,
+   "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=110&cb=1584816010593"
+}
+[1584816010.617][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=110&cb=1584816010593"
+}
+[1584816010.617][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809"
+}
+[1584816010.617][DEBUG]: DevTools WebSocket Event: Page.frameAttached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "27082B6B55552BE51D7BE324C9C4A17F",
+   "parentFrameId": "08380E584F765121676F98AD741857CF",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12103,
+         "functionName": "te",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8809,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8833,
+         "functionName": "V",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12346,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12428,
+         "functionName": "ae",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12691,
+         "functionName": "t",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      } ]
+   }
+}
+[1584816010.629][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "27082B6B55552BE51D7BE324C9C4A17F"
+}
+[1584816010.629][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "27082B6B55552BE51D7BE324C9C4A17F",
+      "loaderId": "8F42E3AB5B477BAD39BEA77388FD8E1E",
+      "mimeType": "text/html",
+      "name": "snap06102333584093271",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1584816010.629][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "27082B6B55552BE51D7BE324C9C4A17F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 7,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816010.629][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "delay": 0,
+   "frameId": "27082B6B55552BE51D7BE324C9C4A17F",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=120&cb=1584816010601"
+}
+[1584816010.629][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "27082B6B55552BE51D7BE324C9C4A17F",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=120&cb=1584816010601"
+}
+[1584816010.629][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "27082B6B55552BE51D7BE324C9C4A17F"
+}
+[1584816010.629][DEBUG]: DevTools WebSocket Event: Page.frameAttached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F",
+   "parentFrameId": "08380E584F765121676F98AD741857CF",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12103,
+         "functionName": "te",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8809,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8833,
+         "functionName": "V",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12346,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12428,
+         "functionName": "ae",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12691,
+         "functionName": "t",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      } ]
+   }
+}
+[1584816010.639][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F"
+}
+[1584816010.639][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "CA73F2366B295E0CFCD383E2E0B28B8F",
+      "loaderId": "75F33F1FD58940FBC6D225FF67E7915A",
+      "mimeType": "text/html",
+      "name": "snap094718853737379",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1584816010.639][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 8,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816010.639][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "delay": 0,
+   "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=130&cb=1584816010613"
+}
+[1584816010.639][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=130&cb=1584816010613"
+}
+[1584816010.639][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F"
+}
+[1584816010.639][DEBUG]: DevTools WebSocket Event: Page.frameAttached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51",
+   "parentFrameId": "08380E584F765121676F98AD741857CF",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 12103,
+         "functionName": "te",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8809,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 8833,
+         "functionName": "V",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12346,
+         "functionName": "e",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12428,
+         "functionName": "ae",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      }, {
+         "columnNumber": 12691,
+         "functionName": "t",
+         "lineNumber": 0,
+         "scriptId": "14",
+         "url": "https://sc-static.net/scevent.min.js"
+      } ]
+   }
+}
+[1584816010.640][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51"
+}
+[1584816010.640][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "823CD11F585F2E6E07FFC7E39FF3AF51",
+      "loaderId": "9F7434A347CA6FCEFDD21868C14C979E",
+      "mimeType": "text/html",
+      "name": "snap02994252605815799",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1584816010.640][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 9,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816010.640][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "delay": 0,
+   "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=140&cb=1584816010625"
+}
+[1584816010.640][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51",
+   "reason": "formSubmissionGet",
+   "url": "https://tr.snapchat.com/cm/s?pnid=140&cb=1584816010625"
+}
+[1584816010.640][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51"
+}
+[1584816010.640][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=31) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.650][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 3
+}
+[1584816010.650][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "6B000527CB8A7E3FE107E5926C7652B4",
+      "loaderId": "0231B697DCD1A5C39539DDF2D6C405C7",
+      "mimeType": "text/html",
+      "name": "snap041601146420245083",
+      "parentId": "300B1AECC75989AF4EB7CBFA5368D760",
+      "securityOrigin": "https://tr.snapchat.com",
+      "url": "https://tr.snapchat.com/p"
+   }
+}
+[1584816010.650][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "6B000527CB8A7E3FE107E5926C7652B4",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 10,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816010.650][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.655][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.655][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "6B000527CB8A7E3FE107E5926C7652B4"
+}
+[1584816010.655][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.660][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.660][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 13,
+   "nodeId": 16
+}
+[1584816010.660][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 10
+}
+[1584816010.660][DEBUG]: DevTools WebSocket Event: Page.frameDetached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "6B000527CB8A7E3FE107E5926C7652B4"
+}
+[1584816010.660][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.661][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.720][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 5
+}
+[1584816010.720][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "0B305ED1624560E02AE370F55DA7757F",
+      "loaderId": "A08FB24390616244634C72CFC9B7C56A",
+      "mimeType": "text/html",
+      "name": "snap07941052726469782",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "https://tr.snapchat.com",
+      "url": "https://tr.snapchat.com/cm/s?pnid=100&cb=1584816010586"
+   }
+}
+[1584816010.720][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "0B305ED1624560E02AE370F55DA7757F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 11,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816010.720][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=35) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.736][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=35) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.736][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "0B305ED1624560E02AE370F55DA7757F"
+}
+[1584816010.736][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=36) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.758][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=36) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.758][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 11
+}
+[1584816010.758][DEBUG]: DevTools WebSocket Event: Page.frameDetached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "0B305ED1624560E02AE370F55DA7757F"
+}
+[1584816010.758][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=37) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.767][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 26,
+   "nodeId": 15
+}
+[1584816010.768][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=37) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.854][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 300B1AECC75989AF4EB7CBFA5368D760 {
+   "node": {
+      "attributes": [ "style", "border: 0px; width: 8px; height: 0px; top: 0px; left: -9999px; padding: 0px; margin-top: 1px; position: absolute;" ],
+      "backendNodeId": 10,
+      "childNodeCount": 1,
+      "localName": "div",
+      "nodeId": 17,
+      "nodeName": "DIV",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 14,
+   "previousNodeId": 16
+}
+[1584816010.854][DEBUG]: DevTools WebSocket Event: DOM.childNodeRemoved 300B1AECC75989AF4EB7CBFA5368D760 {
+   "nodeId": 17,
+   "parentNodeId": 14
+}
+[1584816010.854][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 14,
+   "nodeId": 16
+}
+[1584816010.854][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 13,
+   "nodeId": 16
+}
+[1584816010.854][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=38) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.891][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=38) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816010.921][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 14,
+   "nodeId": 16
+}
+[1584816010.921][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 15,
+   "nodeId": 16
+}
+[1584816010.921][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=39) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816010.924][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=39) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.024][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816011.024][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=40) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.026][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=40) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.127][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816011.128][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=41) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.130][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 9
+}
+[1584816011.130][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "823CD11F585F2E6E07FFC7E39FF3AF51",
+      "loaderId": "7CAAADC3A51E6F99C8FD4687CD0D9127",
+      "mimeType": "text/html",
+      "name": "snap02994252605815799",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "https://tr.snapchat.com",
+      "url": "https://tr.snapchat.com/cm/p?rand=1584461237097&pnid=140&pcid=651a38c1-6ba3-11ea-a2df-7266f2f4fffc"
+   }
+}
+[1584816011.130][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 12,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816011.139][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=41) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.139][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51"
+}
+[1584816011.139][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=42) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.142][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=42) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.142][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 12
+}
+[1584816011.142][DEBUG]: DevTools WebSocket Event: Page.frameDetached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "823CD11F585F2E6E07FFC7E39FF3AF51"
+}
+[1584816011.142][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=43) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.143][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=43) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.217][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 27,
+   "nodeId": 15
+}
+[1584816011.217][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=44) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.219][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=44) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.319][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816011.319][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=45) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.320][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=45) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.377][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 6
+}
+[1584816011.377][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "B7469FD9D6041DF3A7FA03FA1AAA2809",
+      "loaderId": "E45DDCFBACEB953339626E188C32779F",
+      "mimeType": "text/html",
+      "name": "snap022594734054425536",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "https://tr.snapchat.com",
+      "url": "https://tr.snapchat.com/cm/p?rand=1584461237097&pnid=110&pcid="
+   }
+}
+[1584816011.377][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 13,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816011.377][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=46) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.380][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=46) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.380][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809"
+}
+[1584816011.380][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=47) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.384][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=47) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.384][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 13
+}
+[1584816011.384][DEBUG]: DevTools WebSocket Event: Page.frameDetached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "B7469FD9D6041DF3A7FA03FA1AAA2809"
+}
+[1584816011.384][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=48) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.385][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=48) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.485][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816011.485][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=49) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.486][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=49) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.586][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816011.587][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=50) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.588][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=50) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.688][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816011.688][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=51) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.692][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=51) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.792][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816011.792][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=52) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.793][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=52) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.896][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584816011.897][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=53) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.898][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 7
+}
+[1584816011.898][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "27082B6B55552BE51D7BE324C9C4A17F",
+      "loaderId": "170BED48EAAEB4247C6390A4A87090AE",
+      "mimeType": "text/html",
+      "name": "snap06102333584093271",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "https://tr.snapchat.com",
+      "url": "https://tr.snapchat.com/cm/p?rand=1584461237097&pnid=120&pcid=&"
+   }
+}
+[1584816011.898][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "27082B6B55552BE51D7BE324C9C4A17F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 14,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816011.901][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=53) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.901][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "27082B6B55552BE51D7BE324C9C4A17F"
+}
+[1584816011.901][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=54) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.903][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=54) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.903][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 14
+}
+[1584816011.903][DEBUG]: DevTools WebSocket Event: Page.frameDetached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "27082B6B55552BE51D7BE324C9C4A17F"
+}
+[1584816011.903][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=55) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.904][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=55) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.975][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 8
+}
+[1584816011.975][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frame": {
+      "id": "CA73F2366B295E0CFCD383E2E0B28B8F",
+      "loaderId": "724EE6500CE04B883F13407674D9BFD6",
+      "mimeType": "text/html",
+      "name": "snap094718853737379",
+      "parentId": "08380E584F765121676F98AD741857CF",
+      "securityOrigin": "https://tr.snapchat.com",
+      "url": "https://tr.snapchat.com/cm/p/o?rand=1584461237097&pnid=130&"
+   }
+}
+[1584816011.975][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "context": {
+      "auxData": {
+         "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 15,
+      "name": "",
+      "origin": "https://tr.snapchat.com"
+   }
+}
+[1584816011.975][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=56) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.983][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=56) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.983][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F"
+}
+[1584816011.983][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 16,
+   "nodeId": 16
+}
+[1584816011.983][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 300B1AECC75989AF4EB7CBFA5368D760 {
+   "timestamp": 15769.334734
+}
+[1584816011.983][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "300B1AECC75989AF4EB7CBFA5368D760"
+}
+[1584816011.983][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 15
+}
+[1584816011.983][DEBUG]: DevTools WebSocket Event: Page.frameDetached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "CA73F2366B295E0CFCD383E2E0B28B8F"
+}
+[1584816011.983][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=57) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.987][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=57) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.987][INFO]: Done waiting for pending navigations. Status: ok
+[1584816011.987][INFO]: [2a5f51e034c18c63aa486b4686918909] RESPONSE Navigate
+[1584816011.989][INFO]: [2a5f51e034c18c63aa486b4686918909] COMMAND GetTitle {
+
+}
+[1584816011.989][INFO]: Waiting for pending navigations...
+[1584816011.989][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=58) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.992][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 300B1AECC75989AF4EB7CBFA5368D760 {
+   "childNodeCount": 15,
+   "nodeId": 16
+}
+[1584816011.992][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 300B1AECC75989AF4EB7CBFA5368D760 {
+   "executionContextId": 4
+}
+[1584816011.992][DEBUG]: DevTools WebSocket Event: Page.frameDetached 300B1AECC75989AF4EB7CBFA5368D760 {
+   "frameId": "08380E584F765121676F98AD741857CF"
+}
+[1584816011.992][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=58) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.992][INFO]: Done waiting for pending navigations. Status: ok
+[1584816011.992][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=59) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1584816011.995][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=59) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": "Premium numbers"
+      }
+   }
+}
+[1584816011.995][INFO]: Waiting for pending navigations...
+[1584816011.995][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=60) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "expression": "1"
+}
+[1584816011.996][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=60) 300B1AECC75989AF4EB7CBFA5368D760 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1584816011.996][INFO]: Done waiting for pending navigations. Status: ok
+[1584816011.996][INFO]: [2a5f51e034c18c63aa486b4686918909] RESPONSE GetTitle "Premium numbers"
+[0321/184012.076148:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://pages.jawwy.sa/premium/en/ (0)
