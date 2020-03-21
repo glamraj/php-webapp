@@ -1,4 +1,4 @@
-<h1>Hello Good God Jawwy</h1>
+<h1>Hello Good Jawwy</h1>
 <h4>Attempting MySQL connection from php...</h4>
 <h4>Start of Portal</h4>
 
@@ -16,14 +16,21 @@ if ($conn->connect_error) {
 
 ?>
 
-//erroneous code
 <?
+echo "erroneous code example:1";
 if ($expr1) {
   //...
 } else if ($expr2) {
   //...
 } else {
 //    ...
+}
+echo "erroneous code example:2";
+final class MyClass {
+
+  public final String getName() {  // Noncompliant
+    return name;
+  }
 }
 ?>
 
