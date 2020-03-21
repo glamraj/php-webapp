@@ -18,14 +18,12 @@ if ($conn->connect_error) {
 
 //erroneous code
 <?
-class Clazz {
-  $name=NULL;  // instance variable
-
-  public static function foo(){
-    if ($this->name != NULL) {
-      // ...
-    }
-  }
+if ($expr1) {
+  //...
+} else if ($expr2) {
+  //...
+} else {
+//    ...
 }
 ?>
 
