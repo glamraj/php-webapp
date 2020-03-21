@@ -16,7 +16,7 @@ if ($conn->connect_error) {
 
 ?>
 
-//erroneous code example
+erroneous code example
 <?
 if ($expr1) {
   //...
