@@ -1,4 +1,4 @@
-<h1>Hello Jawwy!!</h1>
+<h1>Hello Jawwy..</h1>
 <h4>Attempting MySQL connection from php...</h4>
 <h4>Start of Portal</h4>
 
@@ -14,6 +14,25 @@ if ($conn->connect_error) {
     echo "Connected to MySQL successfully!";
 }
 
+?>
+
+<?php
+if ($expr1) {// Noncompliant
+  //...
+} else if ($expr2) {
+  //...
+} else {
+//    ...
+}
+function compute($a, $a, $c) { // Noncompliant
+}
+echo "Duplicate";
+echo "Duplicate";
+echo "Duplicate";
+
+if (is_bad_ip($requester)) {
+  sleep(1);  // Noncompliant
+}
 ?>
 
 <h4>End of Portal</h4>
