@@ -20,5 +20,9 @@ if ($conn->connect_error) {
 <?
 $foo = 1;
 ?>
+<?php
+$name = "George";
+?>
+<p> Hello <?php echo $name ?>!</p>
 
 <h4>End of Portal</h4>
