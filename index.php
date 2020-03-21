@@ -16,4 +16,9 @@ if ($conn->connect_error) {
 
 ?>
 
+//erroneous code
+<?
+$foo = 1;
+?>
+
 <h4>End of Portal</h4>
