@@ -16,21 +16,14 @@ if ($conn->connect_error) {
 
 ?>
 
+//erroneous code example
 <?
-echo "erroneous code example:1";
 if ($expr1) {
   //...
 } else if ($expr2) {
   //...
 } else {
 //    ...
-}
-echo "erroneous code example:2";
-final class MyClass {
-
-  public final String getName() {  // Noncompliant
-    return name;
-  }
 }
 ?>
 
