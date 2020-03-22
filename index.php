@@ -3,6 +3,7 @@
 <h4>Attempting MySQL connection from php...</h4>
 <h4>Start of Portal</h4>
 
+
 <?php
 $host = 'localhost';
 $user = 'web1';
@@ -17,7 +18,9 @@ if ($conn->connect_error) {
 
 ?>
 
+
 <?php
+/*
 if ($expr1) {// Noncompliant
   //...
 } else if ($expr2) {
@@ -34,6 +37,7 @@ echo "Duplicate";
 if (is_bad_ip($requester)) {
   sleep(1);  // Noncompliant
 }
+*/
 ?>
 
 <h4>End of Portal</h4>
