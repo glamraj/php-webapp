@@ -1,3 +1,4 @@
+<title>php-webapp</title>
 <h1>Hello Jawwy</h1>
 <h4>Attempting MySQL connection from php...</h4>
 <h4>Start of Portal</h4>
