@@ -12,6 +12,6 @@ driver = webdriver.Chrome('./chromedriver', chrome_options=chrome_options,  serv
 # Log path added via service_args to see errors if something goes wrong (always a good idea - many of the errors I encountered were described in the logs)
 # And now you can add your website / app testing functionality: 
 #driver.get('https://python.org') 
-driver.get('http://34.93.0.46/')
+#driver.get('http://34.93.0.46/')
 print(driver.title)
 # driver.click...
